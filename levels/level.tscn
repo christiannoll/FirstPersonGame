@@ -1,7 +1,13 @@
 [gd_scene format=3 uid="uid://dd8er76ux245j"]
 
+[ext_resource type="Texture2D" uid="uid://cvmjskcwy18ct" path="res://icon.svg" id="1_80vhd"]
+
 [sub_resource type="BoxShape3D" id="BoxShape3D_umreq"]
 size = Vector3(15, 1, 15)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hjsbj"]
+albedo_texture = ExtResource("1_80vhd")
+uv1_scale = Vector3(3, 2, 1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_umreq"]
 size = Vector3(15, 1, 15)
@@ -14,4 +20,5 @@ size = Vector3(15, 1, 15)
 shape = SubResource("BoxShape3D_umreq")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="floor" unique_id=241746312]
+material_override = SubResource("StandardMaterial3D_hjsbj")
 mesh = SubResource("BoxMesh_umreq")
