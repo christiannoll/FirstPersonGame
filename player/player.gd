@@ -4,6 +4,9 @@ extends CharacterBody3D
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
 
+func _process(_delta):
+	if Input.is_action_just_pressed("pause"):
+		get_tree().quit()
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
