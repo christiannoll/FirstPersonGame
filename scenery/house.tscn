@@ -281,3 +281,21 @@ mesh = SubResource("ArrayMesh_3odox")
 shape = SubResource("ConvexPolygonShape3D_w7jv0")
 
 [node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=346504995]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5.4078817)
+omni_range = 7.3138313
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=1029385805]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8.02867)
+omni_range = 9.057235
+
+[node name="OmniLight3D5" type="OmniLight3D" parent="." unique_id=2125050847]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.886098, 0, 6.0635962)
+omni_range = 8.389554
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="." unique_id=665584588]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.239275, 0, 5.9958177)
+omni_range = 7.675907
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="." unique_id=1962869513]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.239275, 0, -7.474263)
+omni_range = 6.614821
