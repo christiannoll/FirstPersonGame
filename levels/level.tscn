@@ -49,3 +49,4 @@ transform = Transform3D(0.7431448, 0.5481197, -0.38379756, 0, 0.57357645, 0.8191
 shadow_enabled = true
 
 [node name="house" parent="." unique_id=1972832747 instance=ExtResource("3_cwqvt")]
+transform = Transform3D(-0.5, 0, -4.371139e-08, 0, 0.5, 0, 4.371139e-08, 0, -0.5, 2.9882479, 2.9390697, -14.537394)
