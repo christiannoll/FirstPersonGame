@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://it8ldhw0cn7y"]
+
+[ext_resource type="PackedScene" uid="uid://0binc44m1eor" path="res://glb_models/stairs.glb" id="1_mtq0t"]
+
+[node name="stairs" unique_id=1147455357 instance=ExtResource("1_mtq0t")]
