@@ -1,6 +1,7 @@
 [gd_scene format=4 uid="uid://bc81342ghwg50"]
 
 [ext_resource type="PackedScene" uid="uid://it8ldhw0cn7y" path="res://scenery/stairs.tscn" id="1_3fs81"]
+[ext_resource type="Material" uid="uid://wmx45rucsojh" path="res://materials/house_material.tres" id="1_cdgek"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sy2ny"]
 resource_name = "Material"
@@ -230,6 +231,7 @@ points = PackedVector3Array(1, 1, 1, 1, 1, -1, -1, 1, 1, 1, -1, 1, 1, -1, -1, -1
 
 [node name="Cube" type="MeshInstance3D" parent="meshes" unique_id=1014475258]
 transform = Transform3D(21, 0, 0, 0, 5.334, 0, 0, 0, 14.75, 0, 0, 0)
+material_override = ExtResource("1_cdgek")
 mesh = SubResource("ArrayMesh_t7bvg")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="meshes/Cube" unique_id=550933469]
