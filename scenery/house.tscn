@@ -282,6 +282,7 @@ shape = SubResource("ConcavePolygonShape3D_arxyt")
 
 [node name="Cube_005" type="MeshInstance3D" parent="meshes" unique_id=1216169168]
 transform = Transform3D(21.586823, 0, 0, 0, 1, 0, 0, 0, 14.985692, 0, 6.1892204, 0)
+material_override = ExtResource("1_cdgek")
 mesh = SubResource("ArrayMesh_3odox")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="meshes/Cube_005" unique_id=562944715]
