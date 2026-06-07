@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://it8ldhw0cn7y" path="res://scenery/stairs.tscn" id="1_3fs81"]
 [ext_resource type="Material" uid="uid://wmx45rucsojh" path="res://materials/house_material.tres" id="1_cdgek"]
+[ext_resource type="Material" uid="uid://bp43lop5jepdr" path="res://materials/house_material2.tres" id="2_i02j4"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sy2ny"]
 resource_name = "Material"
@@ -271,6 +272,7 @@ shape = SubResource("ConcavePolygonShape3D_i02j4")
 
 [node name="Cube_004" type="MeshInstance3D" parent="meshes" unique_id=1322348733]
 transform = Transform3D(21, 0, 0, 0, 5.334, 0, 0, 0, 14.75, 0, -10.656858, 0)
+material_override = ExtResource("2_i02j4")
 mesh = SubResource("ArrayMesh_8s78j")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="meshes/Cube_004" unique_id=1687983705]
