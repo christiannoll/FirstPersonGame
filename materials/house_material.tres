@@ -1,3 +1,6 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://wmx45rucsojh"]
 
+[ext_resource type="Texture2D" uid="uid://b61tna8apfpkp" path="res://textures/rustic_stone_wall.jpg" id="1_kfeee"]
+
 [resource]
+albedo_texture = ExtResource("1_kfeee")
