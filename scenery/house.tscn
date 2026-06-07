@@ -241,6 +241,7 @@ shape = SubResource("ConcavePolygonShape3D_lkfkg")
 
 [node name="Cube_001" type="MeshInstance3D" parent="meshes" unique_id=619548788]
 transform = Transform3D(7.131, 0, 0, 0, 5.003208, 0, 0, 0, 7.15, -13.754909, 0.28271347, 7.5569506)
+material_override = ExtResource("1_cdgek")
 mesh = SubResource("ArrayMesh_s6hrk")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="meshes/Cube_001" unique_id=1372315542]
@@ -250,6 +251,7 @@ shape = SubResource("ConcavePolygonShape3D_3fs81")
 
 [node name="Cube_002" type="MeshInstance3D" parent="meshes" unique_id=704474209]
 transform = Transform3D(7.131, 0, 0, 0, 5.003208, 0, 0, 0, 7.15, 0.46745124, 0.28271347, 7.5569506)
+material_override = ExtResource("1_cdgek")
 mesh = SubResource("ArrayMesh_ok6lv")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="meshes/Cube_002" unique_id=1712469484]
@@ -259,6 +261,7 @@ shape = SubResource("ConcavePolygonShape3D_cdgek")
 
 [node name="Cube_003" type="MeshInstance3D" parent="meshes" unique_id=1690635015]
 transform = Transform3D(5.3152623, 0, 0, 0, 5.0032077, 0, 0, 0, 4.7986345, -15.072392, 0.28271347, -9.5326805)
+material_override = ExtResource("1_cdgek")
 mesh = SubResource("ArrayMesh_ykstq")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="meshes/Cube_003" unique_id=427042303]
