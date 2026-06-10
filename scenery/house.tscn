@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://it8ldhw0cn7y" path="res://scenery/stairs.tscn" id="1_3fs81"]
 [ext_resource type="Material" uid="uid://wmx45rucsojh" path="res://materials/house_material.tres" id="1_cdgek"]
 [ext_resource type="Material" uid="uid://bp43lop5jepdr" path="res://materials/house_material2.tres" id="2_i02j4"]
+[ext_resource type="PackedScene" uid="uid://d1rdxg86ykr18" path="res://scenery/table.tscn" id="4_arxyt"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sy2ny"]
 resource_name = "Material"
@@ -315,3 +316,6 @@ transform = Transform3D(-0.68693364, 0, -2.3533966e-07, 0, 1.0211471, 0, 1.03724
 
 [node name="stairs2" parent="." unique_id=1282331733 instance=ExtResource("1_3fs81")]
 transform = Transform3D(-0.7931017, 0, -2.3533966e-07, 0, 1.2109339, 0, 1.1975503e-07, 0, -1.5585841, -4.7596455, -12.9434395, -7.3934703)
+
+[node name="table" parent="." unique_id=1959725320 instance=ExtResource("4_arxyt")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 1.7, 12.703395, -3.0869424, -6.0611496)
