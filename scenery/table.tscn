@@ -17,16 +17,20 @@ mesh = SubResource("BoxMesh_j1pyo")
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=845242472]
 transform = Transform3D(0.1, 0, 0, 0, 1, 0, 0, 0, 0.1, -1.349, -0.538, -0.39634183)
+material_override = SubResource("StandardMaterial3D_dvcnb")
 mesh = SubResource("BoxMesh_j1pyo")
 
 [node name="MeshInstance3D3" type="MeshInstance3D" parent="." unique_id=610186007]
 transform = Transform3D(0.1, 0, 0, 0, 1, 0, 0, 0, 0.1, -1.349, -0.538, 0.40445188)
+material_override = SubResource("StandardMaterial3D_dvcnb")
 mesh = SubResource("BoxMesh_j1pyo")
 
 [node name="MeshInstance3D4" type="MeshInstance3D" parent="." unique_id=896837239]
 transform = Transform3D(0.1, 0, 0, 0, 1, 0, 0, 0, 0.1, 1.3429947, -0.538, 0.40445188)
+material_override = SubResource("StandardMaterial3D_dvcnb")
 mesh = SubResource("BoxMesh_j1pyo")
 
 [node name="MeshInstance3D5" type="MeshInstance3D" parent="." unique_id=846205659]
 transform = Transform3D(0.1, 0, 0, 0, 1, 0, 0, 0, 0.1, 1.3429947, -0.538, -0.38819617)
+material_override = SubResource("StandardMaterial3D_dvcnb")
 mesh = SubResource("BoxMesh_j1pyo")
