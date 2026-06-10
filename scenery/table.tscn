@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://d1rdxg86ykr18"]
 
-[ext_resource type="Texture2D" uid="uid://bw62b8w78m8c" path="res://textures/oak_veneer_01_diff_2k.jpg" id="1_6omhd"]
+[ext_resource type="Texture2D" uid="uid://dquwhsgyb8v1b" path="res://textures/oak_veneer_01_diff_2k.jpg" id="1_6omhd"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dvcnb"]
 albedo_texture = ExtResource("1_6omhd")
