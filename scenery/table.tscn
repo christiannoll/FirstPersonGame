@@ -8,6 +8,9 @@ uv1_scale = Vector3(2, 1, 1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_j1pyo"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_6omhd"]
+size = Vector3(3, 1.08, 1)
+
 [node name="table" type="Node3D" unique_id=1959725320]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1041123560]
@@ -34,3 +37,9 @@ mesh = SubResource("BoxMesh_j1pyo")
 transform = Transform3D(0.1, 0, 0, 0, 1, 0, 0, 0, 0.1, 1.3429947, -0.538, -0.38819617)
 material_override = SubResource("StandardMaterial3D_dvcnb")
 mesh = SubResource("BoxMesh_j1pyo")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1290521583]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=867193284]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.47130725, 0)
+shape = SubResource("BoxShape3D_6omhd")
