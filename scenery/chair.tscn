@@ -11,26 +11,26 @@ uv1_scale = Vector3(2, 1, 1)
 [node name="chair" type="Node3D" unique_id=229543745]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1304795418]
-transform = Transform3D(3, 0, 0, 0, 0.125, 0, 0, 0, 1, 0, 0, 0)
+transform = Transform3D(0.72554, 0, 0, 0, 0.125, 0, 0, 0, 0.68825895, -0.0018211757, 0, 0.001519161)
 material_override = SubResource("StandardMaterial3D_ktcuv")
 mesh = SubResource("BoxMesh_ax2ee")
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=1101269680]
-transform = Transform3D(0.1, 0, 0, 0, 1, 0, 0, 0, 0.1, -1.349, -0.538, -0.39634183)
+transform = Transform3D(0.086, 0, 0, 0, 0.685007, 0, 0, 0, 0.086, -0.270267, -0.39146814, -0.27126664)
 material_override = SubResource("StandardMaterial3D_ktcuv")
 mesh = SubResource("BoxMesh_ax2ee")
 
-[node name="MeshInstance3D3" type="MeshInstance3D" parent="." unique_id=1743312568]
-transform = Transform3D(0.1, 0, 0, 0, 1, 0, 0, 0, 0.1, -1.349, -0.538, 0.40445188)
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="." unique_id=1381145414]
+transform = Transform3D(0.086, 0, 0, 0, 0.685007, 0, 0, 0, 0.086, -0.270267, -0.39146814, 0.27223402)
 material_override = SubResource("StandardMaterial3D_ktcuv")
 mesh = SubResource("BoxMesh_ax2ee")
 
-[node name="MeshInstance3D4" type="MeshInstance3D" parent="." unique_id=1032554944]
-transform = Transform3D(0.1, 0, 0, 0, 1, 0, 0, 0, 0.1, 1.3429947, -0.538, 0.40445188)
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="." unique_id=257121572]
+transform = Transform3D(0.086, 0, 0, 0, 0.685007, 0, 0, 0, 0.086, 0.28566468, -0.39146814, 0.27223402)
 material_override = SubResource("StandardMaterial3D_ktcuv")
 mesh = SubResource("BoxMesh_ax2ee")
 
-[node name="MeshInstance3D5" type="MeshInstance3D" parent="." unique_id=823165762]
-transform = Transform3D(0.1, 0, 0, 0, 1, 0, 0, 0, 0.1, 1.3429947, -0.538, -0.38819617)
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="." unique_id=1824656901]
+transform = Transform3D(0.086, 0, 0, 0, 0.685007, 0, 0, 0, 0.086, 0.28566468, -0.39146814, -0.26372713)
 material_override = SubResource("StandardMaterial3D_ktcuv")
 mesh = SubResource("BoxMesh_ax2ee")
