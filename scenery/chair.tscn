@@ -15,6 +15,11 @@ transform = Transform3D(0.72554, 0, 0, 0, 0.125, 0, 0, 0, 0.68825895, -0.0018211
 material_override = SubResource("StandardMaterial3D_ktcuv")
 mesh = SubResource("BoxMesh_ax2ee")
 
+[node name="MeshInstance3D8" type="MeshInstance3D" parent="." unique_id=2133738925]
+transform = Transform3D(0.72554, 0, 0, 0, 0.36525428, 0, 0, 0, 0.064581394, -0.0018211757, 0.44957542, 0.18634881)
+material_override = SubResource("StandardMaterial3D_ktcuv")
+mesh = SubResource("BoxMesh_ax2ee")
+
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=1101269680]
 transform = Transform3D(0.086, 0, 0, 0, 0.685007, 0, 0, 0, 0.086, -0.270267, -0.39146814, -0.27126664)
 material_override = SubResource("StandardMaterial3D_ktcuv")
@@ -27,6 +32,16 @@ mesh = SubResource("BoxMesh_ax2ee")
 
 [node name="MeshInstance3D4" type="MeshInstance3D" parent="." unique_id=257121572]
 transform = Transform3D(0.086, 0, 0, 0, 0.685007, 0, 0, 0, 0.086, 0.28566468, -0.39146814, 0.27223402)
+material_override = SubResource("StandardMaterial3D_ktcuv")
+mesh = SubResource("BoxMesh_ax2ee")
+
+[node name="MeshInstance3D6" type="MeshInstance3D" parent="." unique_id=300501187]
+transform = Transform3D(0.086, 0, 0, 0, 0.685007, 0, 0, 0, 0.086, -0.270267, 0.32695475, 0.27223402)
+material_override = SubResource("StandardMaterial3D_ktcuv")
+mesh = SubResource("BoxMesh_ax2ee")
+
+[node name="MeshInstance3D7" type="MeshInstance3D" parent="." unique_id=1832902547]
+transform = Transform3D(0.086, 0, 0, 0, 0.685007, 0, 0, 0, 0.086, 0.28566468, 0.32695475, 0.27223402)
 material_override = SubResource("StandardMaterial3D_ktcuv")
 mesh = SubResource("BoxMesh_ax2ee")
 
