@@ -8,6 +8,9 @@ uv1_scale = Vector3(2, 1, 1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_ax2ee"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_athwx"]
+size = Vector3(0.7408447, 1.4042435, 0.6722412)
+
 [node name="chair" type="Node3D" unique_id=229543745]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1304795418]
@@ -49,3 +52,9 @@ mesh = SubResource("BoxMesh_ax2ee")
 transform = Transform3D(0.086, 0, 0, 0, 0.685007, 0, 0, 0, 0.086, 0.28566468, -0.39146814, -0.26372713)
 material_override = SubResource("StandardMaterial3D_ktcuv")
 mesh = SubResource("BoxMesh_ax2ee")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=2000138065]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=2118619917]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0007917881, -0.03447336, 0.0050010383)
+shape = SubResource("BoxShape3D_athwx")
