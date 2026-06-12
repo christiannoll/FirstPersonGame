@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://df8ysp1fqewpj"]
+
+[ext_resource type="Texture2D" uid="uid://dquwhsgyb8v1b" path="res://textures/oak_veneer_01_diff_2k.jpg" id="1_athwx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ktcuv"]
+albedo_texture = ExtResource("1_athwx")
+uv1_scale = Vector3(2, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ax2ee"]
+
+[node name="chair" type="Node3D" unique_id=229543745]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1304795418]
+transform = Transform3D(3, 0, 0, 0, 0.125, 0, 0, 0, 1, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_ktcuv")
+mesh = SubResource("BoxMesh_ax2ee")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=1101269680]
+transform = Transform3D(0.1, 0, 0, 0, 1, 0, 0, 0, 0.1, -1.349, -0.538, -0.39634183)
+material_override = SubResource("StandardMaterial3D_ktcuv")
+mesh = SubResource("BoxMesh_ax2ee")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="." unique_id=1743312568]
+transform = Transform3D(0.1, 0, 0, 0, 1, 0, 0, 0, 0.1, -1.349, -0.538, 0.40445188)
+material_override = SubResource("StandardMaterial3D_ktcuv")
+mesh = SubResource("BoxMesh_ax2ee")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="." unique_id=1032554944]
+transform = Transform3D(0.1, 0, 0, 0, 1, 0, 0, 0, 0.1, 1.3429947, -0.538, 0.40445188)
+material_override = SubResource("StandardMaterial3D_ktcuv")
+mesh = SubResource("BoxMesh_ax2ee")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="." unique_id=823165762]
+transform = Transform3D(0.1, 0, 0, 0, 1, 0, 0, 0, 0.1, 1.3429947, -0.538, -0.38819617)
+material_override = SubResource("StandardMaterial3D_ktcuv")
+mesh = SubResource("BoxMesh_ax2ee")
