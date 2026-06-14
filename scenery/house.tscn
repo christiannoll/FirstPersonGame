@@ -322,19 +322,19 @@ transform = Transform3D(-0.7931017, 0, -2.3533966e-07, 0, 1.2109339, 0, 1.197550
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2.5, 12.703395, -2.8074296, -6.0611496)
 
 [node name="chair" parent="." unique_id=229543745 instance=ExtResource("5_w7jv0")]
-transform = Transform3D(-1.3382437e-05, 0, -1.8, 0, 1.8, 0, 1.8, 0, -1.3382437e-05, 9.287848, -3.4891264, -6.1622443)
+transform = Transform3D(-1.3382437e-05, 0, -1.8, 0, 1.8, 0, 1.8, 0, -1.3382437e-05, 9.541764, -3.4891264, -6.1622443)
 
 [node name="chair2" parent="." unique_id=1208270271 instance=ExtResource("5_w7jv0")]
-transform = Transform3D(-7.86805e-08, 0, 1.8, 0, 1.8, 0, -1.8, 0, -7.86805e-08, 16.110811, -3.4891264, -6.1622443)
+transform = Transform3D(-7.86805e-08, 0, 1.8, 0, 1.8, 0, -1.8, 0, -7.86805e-08, 15.904877, -3.4891264, -6.1622443)
 
 [node name="chair3" parent="." unique_id=1025831550 instance=ExtResource("5_w7jv0")]
-transform = Transform3D(-1.8, 0, -1.57361e-07, 0, 1.8, 0, 1.57361e-07, 0, -1.8, 13.95409, -3.4891264, -7.5202036)
+transform = Transform3D(-1.8, 0, -1.57361e-07, 0, 1.8, 0, 1.57361e-07, 0, -1.8, 13.95409, -3.4891264, -7.2874317)
 
 [node name="chair4" parent="." unique_id=2060213272 instance=ExtResource("5_w7jv0")]
-transform = Transform3D(-1.8, 0, -1.57361e-07, 0, 1.8, 0, 1.57361e-07, 0, -1.8, 11.568618, -3.4891264, -7.5202036)
+transform = Transform3D(-1.8, 0, -1.57361e-07, 0, 1.8, 0, 1.57361e-07, 0, -1.8, 11.568618, -3.4891264, -7.2874317)
 
 [node name="chair5" parent="." unique_id=688043295 instance=ExtResource("5_w7jv0")]
-transform = Transform3D(1.8, 0, 0, 0, 1.8, 0, 0, 0, 1.8, 11.568618, -3.4891264, -4.6121745)
+transform = Transform3D(1.8, 0, 0, 0, 1.8, 0, 0, 0, 1.8, 11.568618, -3.4891264, -4.8619614)
 
 [node name="chair6" parent="." unique_id=765748145 instance=ExtResource("5_w7jv0")]
-transform = Transform3D(1.8, 0, 0, 0, 1.8, 0, 0, 0, 1.8, 13.815997, -3.4891264, -4.6121745)
+transform = Transform3D(1.8, 0, 0, 0, 1.8, 0, 0, 0, 1.8, 13.815997, -3.4891264, -4.8619614)
