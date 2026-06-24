@@ -324,15 +324,18 @@ mesh = SubResource("ArrayMesh_v8alu")
 transform = Transform3D(0.954, 0, 0, 0, 0.425, 0, 0, 0, 1.119, 0.19973159, 0.40135, -1.2135586)
 mesh = SubResource("ArrayMesh_to8xr")
 
-[node name="Cube_004" type="MeshInstance3D" parent="." unique_id=1536134903]
+[node name="drawer" type="Node3D" parent="." unique_id=205487843]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.005694151, 0, 0)
+
+[node name="Cube_004" type="MeshInstance3D" parent="drawer" unique_id=1536134903]
 transform = Transform3D(0.954, 0, 0, 0, 0.425, 0, 0, 0, 1.119, 0.19973159, 0.40135, 1.1803)
 mesh = SubResource("ArrayMesh_0xnq7")
 
-[node name="Cylinder" type="MeshInstance3D" parent="." unique_id=1170904106]
+[node name="Cylinder" type="MeshInstance3D" parent="drawer" unique_id=1170904106]
 transform = Transform3D(0, 0.14, 0, -0.113, 0, 0, 0, 0, 0.113, 1.2505, 0.42762, 1.1753)
 mesh = SubResource("ArrayMesh_mne5t")
 
-[node name="Cylinder_001" type="MeshInstance3D" parent="." unique_id=1207113294]
+[node name="Cylinder_001" type="MeshInstance3D" parent="drawer" unique_id=1207113294]
 transform = Transform3D(0, 0.057861604, 0, -0.15, 0, 0, 0, 0, 0.149623, 1.3381209, 0.42762, 1.1753)
 mesh = SubResource("ArrayMesh_ikw18")
 
