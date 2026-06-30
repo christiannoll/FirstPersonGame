@@ -149,6 +149,9 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_a6aby")
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mcxpp"]
+albedo_texture = ExtResource("1_1mp7x")
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ch6h"]
 resource_name = "Material.004"
 cull_mode = 2
@@ -349,6 +352,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.038779497, 0, 0)
 
 [node name="Cube_004" type="MeshInstance3D" parent="drawer" unique_id=1536134903]
 transform = Transform3D(0.954, 0, 0, 0, 0.425, 0, 0, 0, 1.119, 0.19973159, 0.40135, 1.1803)
+material_override = SubResource("StandardMaterial3D_mcxpp")
 mesh = SubResource("ArrayMesh_0xnq7")
 
 [node name="Cylinder" type="MeshInstance3D" parent="drawer" unique_id=1170904106]
