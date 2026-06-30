@@ -1,5 +1,10 @@
 [gd_scene format=4 uid="uid://vehoc70ny2o"]
 
+[ext_resource type="Texture2D" uid="uid://dykko36v4mou8" path="res://textures/wood_table_worn_diff_2k.jpg" id="1_1mp7x"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p1d5q"]
+albedo_texture = ExtResource("1_1mp7x")
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0cs4r"]
 resource_name = "Material"
 cull_mode = 2
@@ -321,6 +326,7 @@ size = Vector3(2.29, 2.166504, 5.01)
 
 [node name="Cube" type="MeshInstance3D" parent="." unique_id=2065781507]
 transform = Transform3D(1.116, 0, 0, 0, 0.71, 0, 0, 0, 2.501, 0, 0.27901292, 0)
+material_override = SubResource("StandardMaterial3D_p1d5q")
 mesh = SubResource("ArrayMesh_v8alu")
 
 [node name="drawer2" type="Node3D" parent="." unique_id=2065104868]
