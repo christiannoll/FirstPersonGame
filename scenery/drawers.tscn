@@ -341,10 +341,12 @@ mesh = SubResource("ArrayMesh_to8xr")
 
 [node name="Cylinder_002" type="MeshInstance3D" parent="drawer2" unique_id=1839083333]
 transform = Transform3D(0, 0.057861604, 0, -0.15, 0, 0, 0, 0, 0.149623, 1.3381209, 0.42762, -1.1880751)
+material_override = ExtResource("3_2uhxk")
 mesh = SubResource("ArrayMesh_pu3q5")
 
 [node name="Cylinder_003" type="MeshInstance3D" parent="drawer2" unique_id=150980428]
 transform = Transform3D(0, 0.14, 0, -0.113, 0, 0, 0, 0, 0.113, 1.2505, 0.42762, -1.1880751)
+material_override = ExtResource("3_2uhxk")
 mesh = SubResource("ArrayMesh_43tjf")
 
 [node name="drawer" type="Node3D" parent="." unique_id=205487843]
