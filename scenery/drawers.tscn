@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://dykko36v4mou8" path="res://textures/wood_table_worn_diff_2k.jpg" id="1_1mp7x"]
 [ext_resource type="Material" uid="uid://cr1qnw4ne1c20" path="res://materials/drawers.tres" id="2_mcxpp"]
+[ext_resource type="Material" uid="uid://xms5mk5swyhd" path="res://materials/metal.tres" id="3_2uhxk"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p1d5q"]
 albedo_texture = ExtResource("1_1mp7x")
@@ -356,10 +357,12 @@ mesh = SubResource("ArrayMesh_0xnq7")
 
 [node name="Cylinder" type="MeshInstance3D" parent="drawer" unique_id=1170904106]
 transform = Transform3D(0, 0.14, 0, -0.113, 0, 0, 0, 0, 0.113, 1.2505, 0.42762, 1.1753)
+material_override = ExtResource("3_2uhxk")
 mesh = SubResource("ArrayMesh_mne5t")
 
 [node name="Cylinder_001" type="MeshInstance3D" parent="drawer" unique_id=1207113294]
 transform = Transform3D(0, 0.057861604, 0, -0.15, 0, 0, 0, 0, 0.149623, 1.3381209, 0.42762, 1.1753)
+material_override = ExtResource("3_2uhxk")
 mesh = SubResource("ArrayMesh_ikw18")
 
 [node name="Cube_001" type="MeshInstance3D" parent="." unique_id=1125458819]
