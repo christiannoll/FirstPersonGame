@@ -348,3 +348,6 @@ transform = Transform3D(-4.0214477e-08, 0, 0.92, 0, 0.92, 0, -0.92, 0, -4.021447
 
 [node name="drawers3" parent="." unique_id=1555427932 instance=ExtResource("6_jotj8")]
 transform = Transform3D(-4.0214477e-08, 0, 0.92, 0, 0.92, 0, -0.92, 0, -4.0214477e-08, -12.906256, -3.7643564, 12.637916)
+
+[node name="drawers4" parent="." unique_id=1356031245 instance=ExtResource("6_jotj8")]
+transform = Transform3D(-4.0214477e-08, 0, -0.92, 0, 0.92, 0, 0.92, 0, -4.0214477e-08, -13.481874, -3.7643564, -12.904956)
