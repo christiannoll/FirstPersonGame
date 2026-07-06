@@ -5,4 +5,5 @@
 [node name="couch" type="Node3D" unique_id=747236033]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1773963914]
+transform = Transform3D(2.325163, 0, 0, 0, 0.4954669, 0, 0, 0, 1, 0, 0, 0)
 mesh = SubResource("BoxMesh_d034t")
