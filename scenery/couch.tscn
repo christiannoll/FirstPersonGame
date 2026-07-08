@@ -3,6 +3,8 @@
 [sub_resource type="BoxMesh" id="BoxMesh_d034t"]
 
 [sub_resource type="SphereMesh" id="SphereMesh_yj8pt"]
+radial_segments = 32
+rings = 16
 
 [node name="couch" type="Node3D" unique_id=747236033]
 
