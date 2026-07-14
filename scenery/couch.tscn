@@ -12,6 +12,10 @@ rings = 16
 transform = Transform3D(2.325163, 0, 0, 0, 0.4954669, 0, 0, 0, 1, 0, 0, 0)
 mesh = SubResource("BoxMesh_d034t")
 
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="." unique_id=267140102]
+transform = Transform3D(2.325163, 0, 0, 0, -8.985882e-09, -1, 0, 0.20557302, -4.371139e-08, 0, 0.26360184, -0.5799426)
+mesh = SubResource("BoxMesh_d034t")
+
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=1338458034]
 transform = Transform3D(1.1384069, 0, 0, 0, 0.2933273, 0, 0, 0, 1, 0.5872911, 0.31037354, 0)
 mesh = SubResource("SphereMesh_yj8pt")
