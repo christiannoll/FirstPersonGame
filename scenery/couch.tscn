@@ -6,6 +6,9 @@
 radial_segments = 32
 rings = 16
 
+[sub_resource type="CylinderMesh" id="CylinderMesh_yj8pt"]
+radial_segments = 32
+
 [node name="couch" type="Node3D" unique_id=747236033]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1773963914]
@@ -17,11 +20,11 @@ transform = Transform3D(2.325163, 0, 0, 0, -8.985882e-09, -0.87167007, 0, 0.2055
 mesh = SubResource("BoxMesh_d034t")
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=1338458034]
-transform = Transform3D(1.1384069, 0, 0, 0, 0.2933273, 0, 0, 0, 1, 0.5872911, 0.25124198, 0)
+transform = Transform3D(1.2165835, 0, 0, 0, 0.2933273, 0, 0, 0, 1, 0.5872911, 0.25124198, 0)
 mesh = SubResource("SphereMesh_yj8pt")
 
 [node name="MeshInstance3D4" type="MeshInstance3D" parent="." unique_id=346644165]
-transform = Transform3D(1.1384069, 0, 0, 0, 0.2933273, 0, 0, 0, 1, -0.6075288, 0.25124198, 0)
+transform = Transform3D(1.2147202, 0, 0, 0, 0.2933273, 0, 0, 0, 1, -0.6075288, 0.25124198, 0)
 mesh = SubResource("SphereMesh_yj8pt")
 
 [node name="MeshInstance3D5" type="MeshInstance3D" parent="." unique_id=1578476017]
@@ -31,3 +34,11 @@ mesh = SubResource("SphereMesh_yj8pt")
 [node name="MeshInstance3D6" type="MeshInstance3D" parent="." unique_id=582065049]
 transform = Transform3D(1.1384069, 0, 0, 0, -1.2821744e-08, -1, 0, 0.2933273, -4.371139e-08, -0.6075288, 0.39758635, -0.33356848)
 mesh = SubResource("SphereMesh_yj8pt")
+
+[node name="MeshInstance3D7" type="MeshInstance3D" parent="." unique_id=1108957636]
+transform = Transform3D(0.3, 0, 0, 0, -1.7855262e-08, -0.3, 0, 0.4084808, -1.3113417e-08, -1.2389755, 0.26909834, -0.027209044)
+mesh = SubResource("CylinderMesh_yj8pt")
+
+[node name="MeshInstance3D8" type="MeshInstance3D" parent="." unique_id=196966773]
+transform = Transform3D(0.3, 0, 0, 0, -1.7855262e-08, -0.3, 0, 0.4084808, -1.3113417e-08, 1.2044649, 0.26909834, -0.027209044)
+mesh = SubResource("CylinderMesh_yj8pt")
