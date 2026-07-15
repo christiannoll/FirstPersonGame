@@ -1,5 +1,11 @@
 [gd_scene format=3 uid="uid://dadm580q1kwka"]
 
+[ext_resource type="Texture2D" uid="uid://dquwhsgyb8v1b" path="res://textures/oak_veneer_01_diff_2k.jpg" id="1_fixh1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_d034t"]
+albedo_texture = ExtResource("1_fixh1")
+uv1_scale = Vector3(3, 1, 1)
+
 [sub_resource type="BoxMesh" id="BoxMesh_d034t"]
 
 [sub_resource type="SphereMesh" id="SphereMesh_yj8pt"]
@@ -16,6 +22,7 @@ size = Vector3(2.6329346, 1.107544, 1)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1773963914]
 transform = Transform3D(2.325163, 0, 0, 0, 0.40730965, 0, 0, 0, 0.7614497, 0, 0, 0)
+material_overlay = SubResource("StandardMaterial3D_d034t")
 mesh = SubResource("BoxMesh_d034t")
 
 [node name="MeshInstance3D3" type="MeshInstance3D" parent="." unique_id=267140102]
