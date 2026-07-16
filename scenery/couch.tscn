@@ -9,14 +9,14 @@ uv1_scale = Vector3(3, 1, 1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_d034t"]
 
-[sub_resource type="SphereMesh" id="SphereMesh_yj8pt"]
-radial_segments = 32
-rings = 16
-
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tu7n6"]
 albedo_color = Color(0.581033, 0.58103293, 0.5810329, 1)
 albedo_texture = ExtResource("2_b1wm0")
 uv1_offset = Vector3(0.5, 0, 0)
+
+[sub_resource type="SphereMesh" id="SphereMesh_yj8pt"]
+radial_segments = 32
+rings = 16
 
 [sub_resource type="CylinderMesh" id="CylinderMesh_yj8pt"]
 radial_segments = 32
@@ -38,6 +38,7 @@ mesh = SubResource("BoxMesh_d034t")
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=1338458034]
 transform = Transform3D(1.2165835, 0, 0, 0, 0.2933273, 0, 0, 0, 1, 0.5872911, 0.25124198, 0)
+material_override = SubResource("StandardMaterial3D_tu7n6")
 mesh = SubResource("SphereMesh_yj8pt")
 
 [node name="MeshInstance3D4" type="MeshInstance3D" parent="." unique_id=346644165]
