@@ -58,10 +58,12 @@ mesh = SubResource("SphereMesh_yj8pt")
 
 [node name="MeshInstance3D7" type="MeshInstance3D" parent="." unique_id=1108957636]
 transform = Transform3D(0.3, 0, 0, 0, -1.7855262e-08, -0.3, 0, 0.4084808, -1.3113417e-08, -1.2389755, 0.26909834, -0.027209044)
+material_override = SubResource("StandardMaterial3D_tu7n6")
 mesh = SubResource("CylinderMesh_yj8pt")
 
 [node name="MeshInstance3D8" type="MeshInstance3D" parent="." unique_id=196966773]
 transform = Transform3D(0.3, 0, 0, 0, -1.7855262e-08, -0.3, 0, 0.4084808, -1.3113417e-08, 1.2044649, 0.26909834, -0.027209044)
+material_override = SubResource("StandardMaterial3D_tu7n6")
 mesh = SubResource("CylinderMesh_yj8pt")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=197458417]
