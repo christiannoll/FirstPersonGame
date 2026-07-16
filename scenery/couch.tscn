@@ -48,10 +48,12 @@ mesh = SubResource("SphereMesh_yj8pt")
 
 [node name="MeshInstance3D5" type="MeshInstance3D" parent="." unique_id=1578476017]
 transform = Transform3D(1.1384069, 0, 0, 0, -1.2821744e-08, -1, 0, 0.2933273, -4.371139e-08, 0.5872911, 0.39758635, -0.33356848)
+material_override = SubResource("StandardMaterial3D_tu7n6")
 mesh = SubResource("SphereMesh_yj8pt")
 
 [node name="MeshInstance3D6" type="MeshInstance3D" parent="." unique_id=582065049]
 transform = Transform3D(1.1384069, 0, 0, 0, -1.2821744e-08, -1, 0, 0.2933273, -4.371139e-08, -0.6075288, 0.39758635, -0.33356848)
+material_override = SubResource("StandardMaterial3D_tu7n6")
 mesh = SubResource("SphereMesh_yj8pt")
 
 [node name="MeshInstance3D7" type="MeshInstance3D" parent="." unique_id=1108957636]
