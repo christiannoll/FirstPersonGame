@@ -1,0 +1,81 @@
+[gd_scene format=4 uid="uid://c8kox6nn73gio"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1333c"]
+resource_name = "Material"
+cull_mode = 2
+albedo_color = Color(0.9063318, 0.9063318, 0.9063318, 1)
+roughness = 0.5
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_5on11"]
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"format": 34896613377,
+"index_count": 84,
+"index_data": PackedByteArray("AAABAAIAAAADAAEAAgAEAAAABAADAAAABQABAAMABAAFAAMABQAGAAEAAgABAAYAAgAHAAQAAgAGAAcABwAIAAQACQAFAAQACQAEAAgABQAKAAYABQAJAAoACwAHAAYACwAIAAcACwAGAAoACAAMAAkACgAJAAwADQAIAAsADQALAAoADQAOAAgACAAOAAwADQAKAA8ADgANAA8ACgAMAA8ADgAPAAwA"),
+"name": "Material",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 16,
+"vertex_data": PackedByteArray("dl5eCpb1AAB2XqD1aAoAAHZeXgpoCgAAdl6g9Zb1AAD//14KlvUAAP//oPWW9QAA//+g9WgKAAD//14KaAoAAP//AAD//wAA////////AAD/////AAAAAP//AAAAAAAAAAD/////AAAAAAAAAAAAAAAAAAD//wAAAAD//wAAAAA=")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_q6t3s"]
+resource_name = "painting_frame_Cube"
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"attribute_data": PackedByteArray("/1////+f/7//X/+//5////8f/39iSP8//x//P2JI/3//X/+//5+dl/9fnZf/n/+//5//f//f/z//3/9//5//P/9f/z//nwAA/5//P/9fAAD/X////5//v/+f////X/+//x//f/9f/z//X/9//x//P/9f/39nnWV9/5//f2edmUKXYmV9/5//P/9f/z+XYplC/1//v/+f/3//n/+//1//f/9fYij/nwAA/18AAP+fYiict/8//9//f//f/z+ct/9/"),
+"format": 34896613399,
+"index_count": 84,
+"index_data": PackedByteArray("AAABAAIAAAADAAEABAAFAAYABAAHAAUACAAJAAoACAALAAkADAANAA4ADAAPAA0AEAARABIAEAATABEAFAAVABYAFAAXABUAGAAZABoAGAAbABkAHAAdAB4AHwAeAB0AHAAgAB0AHwAhAB4AHAAiACAAIQAfACMAIAAiACMAIQAjACIAJAAlACYAJAAnACUAKAApACoAKAArACkALAAtAC4ALAAvAC0A"),
+"material": SubResource("StandardMaterial3D_1333c"),
+"name": "Material",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 48,
+"vertex_data": PackedByteArray("dl5eCpb1qip2XqD1aAqqKnZeXgpoCqoqdl6g9Zb1qip2Xl4KaAr/P///XgqW9f8/dl5eCpb1/z///14KaAr/P3ZeXgpoCv8///+g9WgK/z///14KaAr/P3ZeoPVoCv8//////wAA//8AAP///////wAA//8AAP///////////////wAA////vwAA//////+//////////78AAAAA////vwAAAAD//1TVAAD//wAAVNUAAP////9U1QAAAAAAAFTVAAAAAAAA/7///wAA////v///AAAAAP+/AAAAAP///7///wAAAABU1f//oPVoClTV/////wAAVNX//6D1lvVU1f//XgpoClTV////////VNX//wAA//9U1f//XgqW9VTVAAAAAAAA////////AAD//wAA//8AAP////8AAAAA/////14KlvUAAHZeoPWW9QAAdl5eCpb1AAD//6D1lvUAAP//oPWW9QAAdl6g9WgKAAB2XqD1lvUAAP//oPVoCgAAqiqqKqoqqiqqKqoqqiqqKv///3////9/////f////3///////////////////////3//v/9//7//f/+//3//v/////////////////////9U1VTVVNVU1VTVVNVU1VTVAAD/fwAA/38AAP9/AAD/f6oqqiqqKqoqqiqqKqoqqiqqKqoqqiqqKqoqqiqqKqoq/7//v/+//7//v/+//7//v/+//7//v/+//7//v/+//7//f/8//3//P/9//z//f/8/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_5on11")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2beuy"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_vrr25"]
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray("AAABAAIAAAADAAEA"),
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("AAAAAP//AAD//wAAAAAAAP//AAD//wAAAAAAAAAAAAA=")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_fmtbt"]
+resource_name = "painting_frame_Plane"
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"attribute_data": PackedByteArray("AAD/////AAD/////AAAAAA=="),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray("AAABAAIAAAADAAEA"),
+"material": SubResource("StandardMaterial3D_2beuy"),
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("AAAAAP///7///wAAAAD/v///AAD///+/AAAAAAAA/7////9/////f////3////9/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_vrr25")
+
+[node name="painting_frame" type="Node3D" unique_id=1280198210]
+
+[node name="Cube" type="MeshInstance3D" parent="." unique_id=259225948]
+transform = Transform3D(0.11, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("ArrayMesh_q6t3s")
+
+[node name="Plane" type="MeshInstance3D" parent="." unique_id=915402691]
+transform = Transform3D(0, 1, 0, 0, 0, -0.9699419, -0.9726581, 0, 0, 0.02027006, 0, 0)
+mesh = SubResource("ArrayMesh_fmtbt")
