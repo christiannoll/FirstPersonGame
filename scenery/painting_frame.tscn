@@ -1,6 +1,7 @@
 [gd_scene format=4 uid="uid://c8kox6nn73gio"]
 
 [ext_resource type="Texture2D" uid="uid://dquwhsgyb8v1b" path="res://textures/oak_veneer_01_diff_2k.jpg" id="1_iosk3"]
+[ext_resource type="Script" uid="uid://c8b02haiyqv36" path="res://general_scripts/painting_frame.gd" id="1_oy6fm"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lcp84"]
 albedo_texture = ExtResource("1_iosk3")
@@ -77,6 +78,7 @@ blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_vrr25")
 
 [node name="painting_frame" type="Node3D" unique_id=1280198210]
+script = ExtResource("1_oy6fm")
 
 [node name="Cube" type="MeshInstance3D" parent="." unique_id=259225948]
 transform = Transform3D(0.11, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
