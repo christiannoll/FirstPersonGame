@@ -358,4 +358,4 @@ transform = Transform3D(-4.0214477e-08, 0, -0.92, 0, 0.92, 0, 0.92, 0, -4.021447
 transform = Transform3D(-1.0053619e-07, 0, 2.3, 0, 2.3, 0, -2.3, 0, -1.0053619e-07, 9.000684, -4.1291533, 6.122445)
 
 [node name="painting_frame" parent="." unique_id=1280198210 instance=ExtResource("8_30fy3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.730482, 0.8071239, 6.1885395)
+transform = Transform3D(1, 0, 0, 0, 1.0894777, 0, 0, 0, 1.1868247, 7.730482, 0.8071239, 6.1885395)
