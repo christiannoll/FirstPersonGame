@@ -77,6 +77,9 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_vrr25")
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_oy6fm"]
+size = Vector3(0.23925781, 2.012085, 2.0040283)
+
 [node name="painting_frame" type="Node3D" unique_id=1280198210]
 script = ExtResource("1_oy6fm")
 
@@ -88,3 +91,9 @@ mesh = SubResource("ArrayMesh_q6t3s")
 [node name="Plane" type="MeshInstance3D" parent="." unique_id=915402691]
 transform = Transform3D(0, 1, 0, 0, 0, -0.9699419, -0.9726581, 0, 0, 0.02027006, 0, 0)
 mesh = SubResource("ArrayMesh_fmtbt")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=175321330]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=324029060]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0010027885, -0.0054076314, -0.0064787865)
+shape = SubResource("BoxShape3D_oy6fm")
