@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://df8ysp1fqewpj" path="res://scenery/chair.tscn" id="5_w7jv0"]
 [ext_resource type="PackedScene" uid="uid://vehoc70ny2o" path="res://scenery/drawers.tscn" id="6_jotj8"]
 [ext_resource type="PackedScene" uid="uid://dadm580q1kwka" path="res://scenery/couch.tscn" id="7_3wbpw"]
+[ext_resource type="PackedScene" uid="uid://c8kox6nn73gio" path="res://scenery/painting_frame.tscn" id="8_30fy3"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sy2ny"]
 resource_name = "Material"
@@ -355,3 +356,6 @@ transform = Transform3D(-4.0214477e-08, 0, -0.92, 0, 0.92, 0, 0.92, 0, -4.021447
 
 [node name="couch" parent="." unique_id=747236033 instance=ExtResource("7_3wbpw")]
 transform = Transform3D(-1.0053619e-07, 0, 2.3, 0, 2.3, 0, -2.3, 0, -1.0053619e-07, 9.000684, -4.1291533, 6.122445)
+
+[node name="painting_frame" parent="." unique_id=1280198210 instance=ExtResource("8_30fy3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.730482, 0.8071239, 6.1885395)
