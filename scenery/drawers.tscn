@@ -1,11 +1,8 @@
 [gd_scene format=4 uid="uid://vehoc70ny2o"]
 
-[ext_resource type="Texture2D" uid="uid://dykko36v4mou8" path="res://textures/wood_table_worn_diff_2k.jpg" id="1_1mp7x"]
-[ext_resource type="Material" uid="uid://cr1qnw4ne1c20" path="res://materials/drawers.tres" id="2_mcxpp"]
+[ext_resource type="Material" uid="uid://dyrjj62h0c71c" path="res://materials/wood_material.tres" id="1_2uhxk"]
+[ext_resource type="Material" uid="uid://vle67derd3cc" path="res://materials/darker_wood_material.tres" id="2_2uhxk"]
 [ext_resource type="Material" uid="uid://xms5mk5swyhd" path="res://materials/metal.tres" id="3_2uhxk"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p1d5q"]
-albedo_texture = ExtResource("1_1mp7x")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0cs4r"]
 resource_name = "Material"
@@ -328,7 +325,7 @@ size = Vector3(2.29, 2.166504, 5.01)
 
 [node name="Cube" type="MeshInstance3D" parent="." unique_id=2065781507]
 transform = Transform3D(1.116, 0, 0, 0, 0.71, 0, 0, 0, 2.501, 0, 0.27901292, 0)
-material_override = SubResource("StandardMaterial3D_p1d5q")
+material_override = ExtResource("1_2uhxk")
 mesh = SubResource("ArrayMesh_v8alu")
 
 [node name="drawer2" type="Node3D" parent="." unique_id=2065104868]
@@ -336,7 +333,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.03577614, 0, 0)
 
 [node name="Cube_003" type="MeshInstance3D" parent="drawer2" unique_id=2135132960]
 transform = Transform3D(0.954, 0, 0, 0, 0.425, 0, 0, 0, 1.119, 0.19973159, 0.40135, -1.2135586)
-material_override = ExtResource("2_mcxpp")
+material_override = ExtResource("2_2uhxk")
 mesh = SubResource("ArrayMesh_to8xr")
 
 [node name="Cylinder_002" type="MeshInstance3D" parent="drawer2" unique_id=1839083333]
@@ -354,7 +351,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.038779497, 0, 0)
 
 [node name="Cube_004" type="MeshInstance3D" parent="drawer" unique_id=1536134903]
 transform = Transform3D(0.954, 0, 0, 0, 0.425, 0, 0, 0, 1.119, 0.19973159, 0.40135, 1.1803)
-material_override = ExtResource("2_mcxpp")
+material_override = ExtResource("2_2uhxk")
 mesh = SubResource("ArrayMesh_0xnq7")
 
 [node name="Cylinder" type="MeshInstance3D" parent="drawer" unique_id=1170904106]
@@ -369,12 +366,12 @@ mesh = SubResource("ArrayMesh_ikw18")
 
 [node name="Cube_001" type="MeshInstance3D" parent="." unique_id=1125458819]
 transform = Transform3D(1, 0, 0, 0, 0.51721805, 0, 0, 0, 0.149, 0, -0.67156804, 2.278957)
-material_override = ExtResource("2_mcxpp")
+material_override = ExtResource("2_2uhxk")
 mesh = SubResource("ArrayMesh_3rpgw")
 
 [node name="Cube_002" type="MeshInstance3D" parent="." unique_id=143350533]
 transform = Transform3D(1, 0, 0, 0, 0.51721805, 0, 0, 0, 0.149, 0, -0.67156804, -2.2693644)
-material_override = ExtResource("2_mcxpp")
+material_override = ExtResource("2_2uhxk")
 mesh = SubResource("ArrayMesh_7giyf")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=325653576]

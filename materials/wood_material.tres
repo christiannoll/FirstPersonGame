@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dyrjj62h0c71c"]
+
+[ext_resource type="Texture2D" uid="uid://dquwhsgyb8v1b" path="res://textures/oak_veneer_01_diff_2k.jpg" id="1_ktg8k"]
+
+[resource]
+albedo_texture = ExtResource("1_ktg8k")
+uv1_triplanar = true
