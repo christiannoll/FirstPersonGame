@@ -369,6 +369,10 @@ transform = Transform3D(-1.0053619e-07, 0, 2.3, 0, 2.3, 0, -2.3, 0, -1.0053619e-
 transform = Transform3D(1, 0, 0, 0, 1.0894777, 0, 0, 0, 1.1868247, 7.730482, 0.8071239, 6.1885395)
 painting = SubResource("StandardMaterial3D_30fy3")
 
+[node name="painting_frame3" parent="." unique_id=1346301973 instance=ExtResource("8_30fy3")]
+transform = Transform3D(1, 0, 0, 0, 1.0894777, 0, 0, 0, 1.1868247, -19.869667, 0.8071239, 6.1885395)
+painting = SubResource("StandardMaterial3D_30fy3")
+
 [node name="painting_frame2" parent="." unique_id=1198692564 instance=ExtResource("8_30fy3")]
 transform = Transform3D(-1, 0, -1.0375551e-07, 0, 1.0894777, 0, 8.742278e-08, 0, -1.1868247, 7.0038347, -0.07687354, 6.613978)
 painting = SubResource("StandardMaterial3D_h4qed")
