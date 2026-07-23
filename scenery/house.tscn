@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://dadm580q1kwka" path="res://scenery/couch.tscn" id="7_3wbpw"]
 [ext_resource type="PackedScene" uid="uid://c8kox6nn73gio" path="res://scenery/painting_frame.tscn" id="8_30fy3"]
 [ext_resource type="Texture2D" uid="uid://cl0evswt11i5e" path="res://textures/stone_tiles_02_diff_2k.jpg" id="9_rbql2"]
+[ext_resource type="Texture2D" uid="uid://c6gi80exysnuq" path="res://textures/slab_tiles_diff_2k.jpg" id="10_ccgrf"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sy2ny"]
 resource_name = "Material"
@@ -235,6 +236,9 @@ points = PackedVector3Array(1, 1, 1, 1, 1, -1, -1, 1, 1, 1, -1, 1, 1, -1, -1, -1
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_30fy3"]
 albedo_texture = ExtResource("9_rbql2")
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h4qed"]
+albedo_texture = ExtResource("10_ccgrf")
+
 [node name="house" type="Node3D" unique_id=1972832747]
 
 [node name="meshes" type="Node3D" parent="." unique_id=1029462544]
@@ -364,3 +368,7 @@ transform = Transform3D(-1.0053619e-07, 0, 2.3, 0, 2.3, 0, -2.3, 0, -1.0053619e-
 [node name="painting_frame" parent="." unique_id=1280198210 instance=ExtResource("8_30fy3")]
 transform = Transform3D(1, 0, 0, 0, 1.0894777, 0, 0, 0, 1.1868247, 7.730482, 0.8071239, 6.1885395)
 painting = SubResource("StandardMaterial3D_30fy3")
+
+[node name="painting_frame2" parent="." unique_id=1198692564 instance=ExtResource("8_30fy3")]
+transform = Transform3D(-1, 0, -1.0375551e-07, 0, 1.0894777, 0, 8.742278e-08, 0, -1.1868247, 7.0038347, -0.07687354, 6.613978)
+painting = SubResource("StandardMaterial3D_h4qed")
