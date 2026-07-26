@@ -391,4 +391,7 @@ transform = Transform3D(-1, 0, -1.0375551e-07, 0, 1.0894777, 0, 8.742278e-08, 0,
 painting = SubResource("StandardMaterial3D_h4qed")
 
 [node name="closet" parent="." unique_id=1281701415 instance=ExtResource("11_h4qed")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.2042513, -1.9019027, 5.9029255)
+transform = Transform3D(0.95, 0, 0, 0, 0.95, 0, 0, 0, 0.95, -5.1647606, -2.0913296, 5.9029255)
+
+[node name="closet2" parent="." unique_id=2109109000 instance=ExtResource("11_h4qed")]
+transform = Transform3D(-0.95, 0, -1.4344602e-07, 0, 0.95, 0, 1.4344602e-07, 0, -0.95, -8.123711, -2.1001058, 5.9807544)
