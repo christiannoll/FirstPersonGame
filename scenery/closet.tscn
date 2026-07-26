@@ -77,6 +77,9 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_h733o")
 
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ub2va"]
+points = PackedVector3Array(-1, -1, -1, 1, 1, 1, 1, -1, 1, 1, 1, -1, -1, 1, 1, 1, -1, -1, -1, -1, 1, -1, 1, -1)
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kfj4t"]
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_eskf6"]
@@ -108,6 +111,9 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_eskf6")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_geffs"]
+points = PackedVector3Array(-1, -1, -1, 1, 1, 1, 1, -1, 1, 1, 1, -1, -1, 1, 1, 1, -1, -1, -1, -1, 1, -1, 1, -1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8gpf5"]
 
@@ -262,10 +268,20 @@ transform = Transform3D(0.086, 0, 0, 0, 2.794, 0, 0, 0, 1, 1.1274, 0, -1.0345)
 material_override = ExtResource("2_geffs")
 mesh = SubResource("ArrayMesh_aahjn")
 
+[node name="StaticBody3D" type="StaticBody3D" parent="Cube_001" unique_id=42938496]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cube_001/StaticBody3D" unique_id=824186455]
+shape = SubResource("ConvexPolygonShape3D_ub2va")
+
 [node name="Cube_002" type="MeshInstance3D" parent="." unique_id=713087616]
 transform = Transform3D(0.086, 0, 0, 0, 2.794, 0, 0, 0, 1, 1.1274, 0, 1.0231582)
 material_override = ExtResource("2_geffs")
 mesh = SubResource("ArrayMesh_7mrk2")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Cube_002" unique_id=1849548830]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cube_002/StaticBody3D" unique_id=683418338]
+shape = SubResource("ConvexPolygonShape3D_geffs")
 
 [node name="Cylinder" type="MeshInstance3D" parent="." unique_id=670345194]
 transform = Transform3D(0, 0.136, 0, 0, 0, -0.095, -0.096, 0, 0, 1.3087585, 0, 0.28224)
