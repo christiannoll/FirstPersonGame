@@ -2,6 +2,7 @@
 
 [ext_resource type="Material" uid="uid://vle67derd3cc" path="res://materials/darker_wood_material.tres" id="1_1bbx3"]
 [ext_resource type="Material" uid="uid://dyrjj62h0c71c" path="res://materials/wood_material.tres" id="2_geffs"]
+[ext_resource type="Material" uid="uid://xms5mk5swyhd" path="res://materials/metal.tres" id="3_geffs"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5by53"]
 resource_name = "Material"
@@ -260,16 +261,20 @@ mesh = SubResource("ArrayMesh_7mrk2")
 
 [node name="Cylinder" type="MeshInstance3D" parent="." unique_id=1120839192]
 transform = Transform3D(0, 0.136, 0, 0, 0, -0.095, -0.096, 0, 0, 1.3087585, 0, 0.28224)
+material_override = ExtResource("3_geffs")
 mesh = SubResource("ArrayMesh_yn83u")
 
 [node name="Cylinder_001" type="MeshInstance3D" parent="." unique_id=479584531]
 transform = Transform3D(0, 0.07038706, 0, 0, 0, -0.15, -0.15, 0, 0, 1.4290322, 0, 0.28224)
+material_override = ExtResource("3_geffs")
 mesh = SubResource("ArrayMesh_wmi5k")
 
 [node name="Cylinder_002" type="MeshInstance3D" parent="." unique_id=1942840353]
 transform = Transform3D(0, 0.07038706, 0, 0, 0, -0.15, -0.15, 0, 0, 1.4290322, 0, -0.3014091)
+material_override = ExtResource("3_geffs")
 mesh = SubResource("ArrayMesh_63t8u")
 
 [node name="Cylinder_003" type="MeshInstance3D" parent="." unique_id=211412273]
 transform = Transform3D(0, 0.136, 0, 0, 0, -0.095, -0.096, 0, 0, 1.3087585, 0, -0.3014091)
+material_override = ExtResource("3_geffs")
 mesh = SubResource("ArrayMesh_kn5f6")
