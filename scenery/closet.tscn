@@ -1,5 +1,8 @@
 [gd_scene format=4 uid="uid://dfae3u4rrsghn"]
 
+[ext_resource type="Material" uid="uid://vle67derd3cc" path="res://materials/darker_wood_material.tres" id="1_1bbx3"]
+[ext_resource type="Material" uid="uid://dyrjj62h0c71c" path="res://materials/wood_material.tres" id="2_geffs"]
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5by53"]
 resource_name = "Material"
 cull_mode = 2
@@ -242,14 +245,17 @@ shadow_mesh = SubResource("ArrayMesh_8lm08")
 
 [node name="Cube" type="MeshInstance3D" parent="." unique_id=1978119196]
 transform = Transform3D(1.065, 0, 0, 0, 2.895, 0, 0, 0, 2.168, 0, 0, 0)
+material_override = ExtResource("1_1bbx3")
 mesh = SubResource("ArrayMesh_q3lvj")
 
 [node name="Cube_001" type="MeshInstance3D" parent="." unique_id=854247656]
 transform = Transform3D(0.086, 0, 0, 0, 2.794, 0, 0, 0, 1, 1.1274, 0, -1.0345)
+material_override = ExtResource("2_geffs")
 mesh = SubResource("ArrayMesh_aahjn")
 
 [node name="Cube_002" type="MeshInstance3D" parent="." unique_id=1720097799]
 transform = Transform3D(0.086, 0, 0, 0, 2.794, 0, 0, 0, 1, 1.1274, 0, 1.0231582)
+material_override = ExtResource("2_geffs")
 mesh = SubResource("ArrayMesh_7mrk2")
 
 [node name="Cylinder" type="MeshInstance3D" parent="." unique_id=1120839192]
