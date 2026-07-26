@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://c8kox6nn73gio" path="res://scenery/painting_frame.tscn" id="8_30fy3"]
 [ext_resource type="Texture2D" uid="uid://cl0evswt11i5e" path="res://textures/stone_tiles_02_diff_2k.jpg" id="9_rbql2"]
 [ext_resource type="Texture2D" uid="uid://c6gi80exysnuq" path="res://textures/slab_tiles_diff_2k.jpg" id="10_ccgrf"]
+[ext_resource type="PackedScene" uid="uid://dfae3u4rrsghn" path="res://scenery/closet.tscn" id="11_h4qed"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sy2ny"]
 resource_name = "Material"
@@ -388,3 +389,6 @@ painting = SubResource("StandardMaterial3D_30fy3")
 [node name="painting_frame2" parent="furniture/paintings" unique_id=1198692564 instance=ExtResource("8_30fy3")]
 transform = Transform3D(-1, 0, -1.0375551e-07, 0, 1.0894777, 0, 8.742278e-08, 0, -1.1868247, 7.0038347, -0.07687354, 6.613978)
 painting = SubResource("StandardMaterial3D_h4qed")
+
+[node name="closet" parent="." unique_id=1281701415 instance=ExtResource("11_h4qed")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.2042513, -1.9019027, 5.9029255)
