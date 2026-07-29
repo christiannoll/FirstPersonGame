@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://mdx1o7h4wx5k"]
+
+[ext_resource type="Texture2D" uid="uid://dsyt0gvs3hwrx" path="res://textures/rock_01_diff_2k.jpg" id="1_klwoy"]
+
+[resource]
+albedo_texture = ExtResource("1_klwoy")
+metallic = 1.0
+roughness = 0.5
