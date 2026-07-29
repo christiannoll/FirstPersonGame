@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://cl0evswt11i5e" path="res://textures/stone_tiles_02_diff_2k.jpg" id="9_rbql2"]
 [ext_resource type="Texture2D" uid="uid://c6gi80exysnuq" path="res://textures/slab_tiles_diff_2k.jpg" id="10_ccgrf"]
 [ext_resource type="PackedScene" uid="uid://dfae3u4rrsghn" path="res://scenery/closet.tscn" id="11_h4qed"]
+[ext_resource type="PackedScene" uid="uid://b1qtydw4vcn3p" path="res://scenery/tv.tscn" id="12_h57wj"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sy2ny"]
 resource_name = "Material"
@@ -397,3 +398,6 @@ transform = Transform3D(0.95, 0, 0, 0, 0.95, 0, 0, 0, 0.95, -5.1647606, -2.09132
 
 [node name="closet2" parent="closets" unique_id=2109109000 instance=ExtResource("11_h4qed")]
 transform = Transform3D(-0.95, 0, -1.4344602e-07, 0, 0.95, 0, 1.4344602e-07, 0, -0.95, -8.123711, -2.1001058, 5.9807544)
+
+[node name="tv" parent="." unique_id=1172969511 instance=ExtResource("12_h57wj")]
+transform = Transform3D(-0.6, 0, -5.2453668e-08, 0, 0.6, 0, 5.2453668e-08, 0, -0.6, 18.841877, -1.732766, 6.8673162)
