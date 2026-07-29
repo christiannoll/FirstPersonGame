@@ -1,5 +1,7 @@
 [gd_scene format=4 uid="uid://b1qtydw4vcn3p"]
 
+[ext_resource type="Material" uid="uid://mdx1o7h4wx5k" path="res://materials/metal_2.tres" id="1_kq5ai"]
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2oak5"]
 resource_name = "Material"
 cull_mode = 2
@@ -266,10 +268,12 @@ shadow_mesh = SubResource("ArrayMesh_myy08")
 
 [node name="Cube" type="MeshInstance3D" parent="." unique_id=129923779]
 transform = Transform3D(1.196, 0, 0, 0, 1.827, 0, 0, 0, 2.411, 0, 0, 0)
+material_override = ExtResource("1_kq5ai")
 mesh = SubResource("ArrayMesh_o63pj")
 
 [node name="Cube_001" type="MeshInstance3D" parent="." unique_id=277636618]
 transform = Transform3D(0.533, 0, 0, 0, 1.396, 0, 0, 0, 1.96, -1.3082, 0, 0)
+material_override = ExtResource("1_kq5ai")
 mesh = SubResource("ArrayMesh_fk6xq")
 
 [node name="Cube_002" type="MeshInstance3D" parent="." unique_id=45157840]

@@ -1,8 +1,10 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://mdx1o7h4wx5k"]
 
-[ext_resource type="Texture2D" uid="uid://dsyt0gvs3hwrx" path="res://textures/rock_01_diff_2k.jpg" id="1_klwoy"]
+[ext_resource type="Texture2D" uid="uid://b2nwut0t1s6tj" path="res://textures/painted_plaster_wall_diff_2k.jpg" id="1_klwoy"]
 
 [resource]
+albedo_color = Color(1, 1, 1, 0.9843137)
 albedo_texture = ExtResource("1_klwoy")
 metallic = 1.0
 roughness = 0.5
+uv1_scale = Vector3(5, 0.5, 1)
