@@ -40,6 +40,10 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_v7663")
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rbtal"]
+transparency = 1
+albedo_color = Color(1, 1, 1, 0.15686275)
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sbjpg"]
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_whaxw"]
@@ -81,4 +85,5 @@ mesh = SubResource("ArrayMesh_8bw6f")
 
 [node name="Cube_001" type="MeshInstance3D" parent="." unique_id=451113618]
 transform = Transform3D(0.955, 0, 0, 0, 0.955, 0, 0, 0, 0.045, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_rbtal")
 mesh = SubResource("ArrayMesh_m11o4")
