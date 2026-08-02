@@ -405,3 +405,6 @@ transform = Transform3D(-0.6, 0, -5.2453668e-08, 0, 0.6, 0, 5.2453668e-08, 0, -0
 
 [node name="window" parent="." unique_id=527347493 instance=ExtResource("13_ehtd8")]
 transform = Transform3D(2.1399493, 0, 0, 0, 2.3672402, 0, 0, 0, 1, 11.965302, -1.2532961, 14.229399)
+
+[node name="window2" parent="." unique_id=1450867227 instance=ExtResource("13_ehtd8")]
+transform = Transform3D(-9.3809305e-08, 0, 1, 0, 2.3148816, 0, -2.1461067, 0, -4.371139e-08, 20.35134, -1.2829212, 0.0109837055)
