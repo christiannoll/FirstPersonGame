@@ -403,17 +403,19 @@ transform = Transform3D(-0.95, 0, -1.4344602e-07, 0, 0.95, 0, 1.4344602e-07, 0, 
 [node name="tv" parent="." unique_id=1172969511 instance=ExtResource("12_h57wj")]
 transform = Transform3D(-0.6, 0, -5.2453668e-08, 0, 0.6, 0, 5.2453668e-08, 0, -0.6, 18.841877, -1.732766, 6.8673162)
 
-[node name="window" parent="." unique_id=527347493 instance=ExtResource("13_ehtd8")]
+[node name="windows" type="Node3D" parent="." unique_id=521927504]
+
+[node name="window" parent="windows" unique_id=527347493 instance=ExtResource("13_ehtd8")]
 transform = Transform3D(2.1399493, 0, 0, 0, 2.3672402, 0, 0, 0, 1, 11.965302, -1.2532961, 14.229399)
 
-[node name="window2" parent="." unique_id=1450867227 instance=ExtResource("13_ehtd8")]
+[node name="window2" parent="windows" unique_id=1450867227 instance=ExtResource("13_ehtd8")]
 transform = Transform3D(-9.3809305e-08, 0, 1, 0, 2.3148816, 0, -2.1461067, 0, -4.371139e-08, 20.35134, -1.2829212, 0.0109837055)
 
-[node name="window3" parent="." unique_id=1451442845 instance=ExtResource("13_ehtd8")]
+[node name="window3" parent="windows" unique_id=1451442845 instance=ExtResource("13_ehtd8")]
 transform = Transform3D(2.2009604, 0, 0, 0, 2.2857504, 0, 0, 0, 1, 0.063828945, -1.225068, 14.267781)
 
-[node name="window4" parent="." unique_id=347365109 instance=ExtResource("13_ehtd8")]
+[node name="window4" parent="windows" unique_id=347365109 instance=ExtResource("13_ehtd8")]
 transform = Transform3D(2.1439474, 0, 0, 0, 2.2590861, 0, 0, 0, 1, -12.783016, -1.2786229, 14.310591)
 
-[node name="window5" parent="." unique_id=814342782 instance=ExtResource("13_ehtd8")]
+[node name="window5" parent="windows" unique_id=814342782 instance=ExtResource("13_ehtd8")]
 transform = Transform3D(-6.053694e-08, 0, 1, 0, 2.2987306, 0, -1.3849238, 0, -4.371139e-08, -20.276718, -1.2035271, -2.2307572)
