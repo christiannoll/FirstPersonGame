@@ -243,6 +243,18 @@ shadow_mesh = SubResource("ArrayMesh_anmwu")
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_w7jv0"]
 points = PackedVector3Array(1, 1, 1, 1, 1, -1, -1, 1, 1, 1, -1, 1, 1, -1, -1, -1, 1, -1, -1, -1, 1, -1, -1, -1)
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_14o1x"]
+albedo_color = Color(0.75608736, 0.7560873, 0.7560873, 1)
+albedo_texture = ExtResource("2_14o1x")
+uv1_scale = Vector3(1.5, 1.5, 1.5)
+uv1_triplanar = true
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_yj8pt"]
+radial_segments = 32
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_14o1x"]
+points = PackedVector3Array(-0.21362531, -0.9456483, -0.44997594, 0.022697844, 0.9499707, 0.49776512, 0.17113656, 0.94994706, 0.4680264, -0.12554918, 0.9499424, -0.4818776, 0.4993227, -0.9530148, -0.0068785837, -0.38583985, -0.9336764, 0.31424764, -0.485806, 0.9575605, 0.112619855, 0.37395012, 0.9371908, -0.3287604, 0.17113656, -0.94994706, 0.4680264, 0.20248522, -0.95793575, -0.4559259, 0.46802303, 0.9499642, 0.17114764, -0.45001814, -0.94573385, -0.2135463, -0.4189659, 0.942515, -0.27168524, -0.24217066, 0.9420667, 0.43472975, -0.18335085, -0.94228464, 0.46431524, 0.4068581, -0.9456796, 0.28859252, -0.485806, -0.9575605, 0.112619855, 0.112522125, 0.9576188, -0.4858357, 0.43468973, -0.9420032, -0.24224564, 0.464315, 0.9423081, -0.18335167, 0.2885816, 0.9456749, 0.40686703, -0.4818789, 0.9499442, -0.12554482, 0.112522125, -0.9576188, -0.4858357, -0.38583985, 0.9336764, 0.31424764, 0.4993227, 0.9530148, -0.0068785837, -0.0069801393, -0.9529721, 0.49931273, -0.2717584, 0.9424313, -0.41892684, -0.3938304, -0.95262295, -0.3044943, 0.31424236, -0.9336903, -0.38584417, 0.20248522, 0.95793575, -0.4559259, -0.12554918, -0.9499424, -0.4818776, -0.4818789, -0.9499442, -0.12554482)
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_30fy3"]
 albedo_texture = ExtResource("9_rbql2")
 
@@ -322,6 +334,16 @@ mesh = SubResource("ArrayMesh_3odox")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="meshes/Cube_005/StaticBody3D" unique_id=50279214]
 shape = SubResource("ConvexPolygonShape3D_w7jv0")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="meshes" unique_id=511300647]
+transform = Transform3D(1.2, 0, 0, 0, 2.693929, 0, 0, 0, 1.2, 1.9678206, -12.790424, -5.761236)
+material_override = SubResource("StandardMaterial3D_14o1x")
+mesh = SubResource("CylinderMesh_yj8pt")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="meshes/MeshInstance3D" unique_id=1743439320]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="meshes/MeshInstance3D/StaticBody3D" unique_id=1859292696]
+shape = SubResource("ConvexPolygonShape3D_14o1x")
 
 [node name="lights" type="Node3D" parent="." unique_id=727243600]
 
