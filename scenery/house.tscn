@@ -345,6 +345,16 @@ mesh = SubResource("CylinderMesh_yj8pt")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="meshes/MeshInstance3D/StaticBody3D" unique_id=1859292696]
 shape = SubResource("ConvexPolygonShape3D_14o1x")
 
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="meshes" unique_id=249011185]
+transform = Transform3D(1.2, 0, 0, 0, 2.693929, 0, 0, 0, 1.2, 1.9678206, -12.790424, -8.670685)
+material_override = SubResource("StandardMaterial3D_14o1x")
+mesh = SubResource("CylinderMesh_yj8pt")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="meshes/MeshInstance3D2" unique_id=502426680]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="meshes/MeshInstance3D2/StaticBody3D" unique_id=156881315]
+shape = SubResource("ConvexPolygonShape3D_14o1x")
+
 [node name="lights" type="Node3D" parent="." unique_id=727243600]
 
 [node name="OmniLight3D" type="OmniLight3D" parent="lights" unique_id=346504995]
