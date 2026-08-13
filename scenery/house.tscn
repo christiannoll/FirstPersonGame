@@ -472,3 +472,6 @@ transform = Transform3D(-6.053694e-08, 0, 1, 0, 2.2987306, 0, -1.3849238, 0, -4.
 
 [node name="bed" parent="." unique_id=1517009805 instance=ExtResource("15_6bdxl")]
 transform = Transform3D(0.70904803, 0, 0, 0, 0.71499133, 0, 0, 0, 0.615636, 5.172449, -3.5726104, 6.6093383)
+
+[node name="bed2" parent="." unique_id=1645092197 instance=ExtResource("15_6bdxl")]
+transform = Transform3D(-0.70904803, 0, -5.3820607e-08, 0, 0.71499133, 0, 6.1986945e-08, 0, -0.615636, -18.076479, -3.5726104, 6.6093383)
