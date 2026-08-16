@@ -7,25 +7,31 @@
 [sub_resource type="CylinderMesh" id="CylinderMesh_yj8pt"]
 radial_segments = 32
 
-[node name="Node3D" type="Node3D" unique_id=1603185333]
+[node name="door" type="Node3D" unique_id=1603185333]
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=2034264302]
-transform = Transform3D(1.221, 0, 0, 0, 2.19, 0, 0, 0, 0.1, 0, 0, 0)
+[node name="hinge" type="Node3D" parent="." unique_id=1554158436]
+transform = Transform3D(0.9973276, 0, -0.073058955, 0, 1, 0, 0.073058955, 0, 0.9973276, 0.61045825, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="hinge" unique_id=2034264302]
+transform = Transform3D(1.221, 0, 0, 0, 2.19, 0, 0, 0, 0.1, -0.61045825, 0, 0)
 mesh = SubResource("BoxMesh_yj8pt")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D" unique_id=408679690]
+[node name="StaticBody3D" type="StaticBody3D" parent="hinge/MeshInstance3D" unique_id=408679690]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D" unique_id=1571280167]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="hinge/MeshInstance3D/StaticBody3D" unique_id=1571280167]
 shape = SubResource("BoxShape3D_yj8pt")
 
-[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=577093679]
+[node name="knob" type="Node3D" parent="hinge" unique_id=530536130]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.61045825, 0, 0)
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="hinge/knob" unique_id=577093679]
 transform = Transform3D(0.1, 0, 0, 0, -8.742278e-09, -0.1, 0, 0.2, -4.371139e-09, -0.40050077, 0, 0)
 mesh = SubResource("CylinderMesh_yj8pt")
 
-[node name="MeshInstance3D3" type="MeshInstance3D" parent="." unique_id=925465643]
+[node name="MeshInstance3D6" type="MeshInstance3D" parent="hinge/knob" unique_id=925465643]
 transform = Transform3D(0.15, 0, 0, 0, -2.1855695e-09, -0.15, 0, 0.05, -6.5567085e-09, -0.40050077, 0, -0.15839979)
 mesh = SubResource("CylinderMesh_yj8pt")
 
-[node name="MeshInstance3D4" type="MeshInstance3D" parent="." unique_id=1483420292]
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="hinge/knob" unique_id=1483420292]
 transform = Transform3D(0.15, 0, 0, 0, -2.1855695e-09, -0.15, 0, 0.05, -6.5567085e-09, -0.40050077, 0, 0.1631664)
 mesh = SubResource("CylinderMesh_yj8pt")
