@@ -2,6 +2,8 @@
 
 [sub_resource type="BoxMesh" id="BoxMesh_yj8pt"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_yj8pt"]
+
 [sub_resource type="CylinderMesh" id="CylinderMesh_yj8pt"]
 radial_segments = 32
 
@@ -10,6 +12,11 @@ radial_segments = 32
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=2034264302]
 transform = Transform3D(1.221, 0, 0, 0, 2.19, 0, 0, 0, 0.1, 0, 0, 0)
 mesh = SubResource("BoxMesh_yj8pt")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D" unique_id=408679690]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D" unique_id=1571280167]
+shape = SubResource("BoxShape3D_yj8pt")
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=577093679]
 transform = Transform3D(0.1, 0, 0, 0, -8.742278e-09, -0.1, 0, 0.2, -4.371139e-09, -0.40050077, 0, 0)
