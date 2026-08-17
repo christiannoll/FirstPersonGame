@@ -7,6 +7,14 @@
 [sub_resource type="CylinderMesh" id="CylinderMesh_yj8pt"]
 radial_segments = 32
 
+[sub_resource type="Animation" id="Animation_t3tcx"]
+resource_name = "open"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_jy65v"]
+_data = {
+&"open": SubResource("Animation_t3tcx")
+}
+
 [node name="door" type="Node3D" unique_id=1603185333]
 
 [node name="hinge" type="Node3D" parent="." unique_id=1554158436]
@@ -37,3 +45,4 @@ transform = Transform3D(0.15, 0, 0, 0, -2.1855695e-09, -0.15, 0, 0.05, -6.556708
 mesh = SubResource("CylinderMesh_yj8pt")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1818453270]
+libraries/ = SubResource("AnimationLibrary_jy65v")
