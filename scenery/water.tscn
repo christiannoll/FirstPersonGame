@@ -1,3 +1,13 @@
 [gd_scene format=3 uid="uid://bhmox6swrjhnf"]
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3qgxu"]
+roughness = 0.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_ekeht"]
+
 [node name="water" type="Node3D" unique_id=1462431862]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1341740474]
+transform = Transform3D(100, 0, 0, 0, -4.371139e-06, 100, 0, -100, -4.371139e-06, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_3qgxu")
+mesh = SubResource("QuadMesh_ekeht")
