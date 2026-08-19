@@ -1,7 +1,37 @@
 [gd_scene format=3 uid="uid://bhmox6swrjhnf"]
 
+[sub_resource type="Gradient" id="Gradient_a4ysk"]
+offsets = PackedFloat32Array(0, 0.8616188, 0.92689294, 0.9660574, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.8616188, 0.8616188, 0.8616188, 1, 0.92689294, 0.92689294, 0.92689294, 1, 0.9660574, 0.9660574, 0.9660574, 1, 1, 1, 1, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_3qgxu"]
+frequency = 0.0005
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_3qgxu"]
+noise = SubResource("FastNoiseLite_3qgxu")
+color_ramp = SubResource("Gradient_a4ysk")
+seamless = true
+seamless_blend_skirt = 1.0
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_3h1ir"]
+frequency = 0.03
+metadata/_preview_in_3d_space_ = true
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_3h1ir"]
+width = 1024
+height = 1024
+noise = SubResource("FastNoiseLite_3h1ir")
+seamless = true
+as_normal_map = true
+seamless_blend_skirt = 1.0
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3qgxu"]
+albedo_color = Color(0.3854429, 0.57484746, 0.7329718, 1)
+albedo_texture = SubResource("NoiseTexture2D_3qgxu")
 roughness = 0.0
+normal_enabled = true
+normal_texture = SubResource("NoiseTexture2D_3h1ir")
+uv1_scale = Vector3(5, 5, 5)
 
 [sub_resource type="QuadMesh" id="QuadMesh_ekeht"]
 
