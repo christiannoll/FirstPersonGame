@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://5jqmix73i16p" path="res://player/player.gd" id="1_oul6g"]
 [ext_resource type="Script" uid="uid://b1gwf831c5cp5" path="res://player/fp_cam.gd" id="2_rkbax"]
+[ext_resource type="Script" uid="uid://clmej4nvf4a2p" path="res://player/player_interact.gd" id="3_g1dw6"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_kqu6x"]
 
@@ -25,3 +26,5 @@ script = ExtResource("2_rkbax")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.31886995)
 
 [node name="RayCast3D" type="RayCast3D" parent="head" unique_id=928993998]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, -0.42673582)
+script = ExtResource("3_g1dw6")
