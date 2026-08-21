@@ -71,9 +71,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.61045825, 0, 0)
 transform = Transform3D(1.221, 0, 0, 0, 2.19, 0, 0, 0, 0.1, -0.61045825, 0, 0)
 mesh = SubResource("BoxMesh_yj8pt")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="hinge/MeshInstance3D" unique_id=408679690]
+[node name="door" type="StaticBody3D" parent="hinge/MeshInstance3D" unique_id=408679690]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="hinge/MeshInstance3D/StaticBody3D" unique_id=1571280167]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="hinge/MeshInstance3D/door" unique_id=1571280167]
 shape = SubResource("BoxShape3D_yj8pt")
 
 [node name="knob" type="Node3D" parent="hinge" unique_id=530536130]
