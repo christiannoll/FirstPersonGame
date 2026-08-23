@@ -26,5 +26,5 @@ script = ExtResource("2_rkbax")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.31886995)
 
 [node name="RayCast3D" type="RayCast3D" parent="head" unique_id=928993998]
-transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, -0.42673582)
+transform = Transform3D(1, 0, 0, 0, -1.3292288e-07, -1, 0, 3.040921, -4.371139e-08, 0, 0, -0.6247871)
 script = ExtResource("3_g1dw6")

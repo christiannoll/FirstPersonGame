@@ -15,6 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://b1qtydw4vcn3p" path="res://scenery/tv.tscn" id="12_h57wj"]
 [ext_resource type="PackedScene" uid="uid://cicr875pvv5du" path="res://scenery/window.tscn" id="13_ehtd8"]
 [ext_resource type="PackedScene" uid="uid://cbcjrgnc1wv01" path="res://scenery/bed.tscn" id="15_6bdxl"]
+[ext_resource type="PackedScene" uid="uid://dqr0f8ilwlft6" path="res://scenery/door.tscn" id="16_quocs"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sy2ny"]
 resource_name = "Material"
@@ -475,3 +476,6 @@ transform = Transform3D(0.70904803, 0, 0, 0, 0.71499133, 0, 0, 0, 0.615636, 5.17
 
 [node name="bed2" parent="." unique_id=1645092197 instance=ExtResource("15_6bdxl")]
 transform = Transform3D(-0.70904803, 0, -5.3820607e-08, 0, 0.71499133, 0, 6.1986945e-08, 0, -0.615636, -18.076479, -3.5726104, 6.6093383)
+
+[node name="door" parent="." unique_id=1603185333 instance=ExtResource("16_quocs")]
+transform = Transform3D(2.8881924, 0, 0, 0, 3.0370772, 0, 0, 0, 1, 13.749057, -1.3780985, -14.516382)
