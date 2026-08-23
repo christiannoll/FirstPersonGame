@@ -1,6 +1,10 @@
 [gd_scene format=3 uid="uid://dqr0f8ilwlft6"]
 
 [ext_resource type="Script" uid="uid://c2xlshm0sgyvx" path="res://general_scripts/door.gd" id="1_jy65v"]
+[ext_resource type="Texture2D" uid="uid://j7dbjcac1y5b" path="res://textures/synthetic_wood_diff_2k.jpg" id="2_l435u"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kmurb"]
+albedo_texture = ExtResource("2_l435u")
 
 [sub_resource type="BoxMesh" id="BoxMesh_yj8pt"]
 
@@ -69,6 +73,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.61045825, 0, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="hinge" unique_id=2034264302]
 transform = Transform3D(1.221, 0, 0, 0, 2.19, 0, 0, 0, 0.1, -0.61045825, 0, 0)
+material_override = SubResource("StandardMaterial3D_kmurb")
 mesh = SubResource("BoxMesh_yj8pt")
 
 [node name="door" type="StaticBody3D" parent="hinge/MeshInstance3D" unique_id=408679690]
