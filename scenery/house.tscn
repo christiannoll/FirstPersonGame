@@ -485,3 +485,6 @@ transform = Transform3D(2.8160536, 0, 0, 0, 3.0795562, 0, 0, 0, 2.5, 0.47108388,
 
 [node name="door3" parent="." unique_id=995635862 instance=ExtResource("16_quocs")]
 transform = Transform3D(2.8160536, 0, 0, 0, 3.0795562, 0, 0, 0, 2.5, -13.896292, -1.5947539, 0.6488342)
+
+[node name="door4" parent="." unique_id=969970343 instance=ExtResource("16_quocs")]
+transform = Transform3D(2.8160536, 0, 0, 0, 3.0795562, 0, 0, 0, 2.5, -13.896292, -1.5947539, -4.92607)
