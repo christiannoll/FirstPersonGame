@@ -97,6 +97,7 @@ mesh = SubResource("CylinderMesh_yj8pt")
 
 [node name="MeshInstance3D4" type="MeshInstance3D" parent="hinge/knob" unique_id=1483420292]
 transform = Transform3D(0.15, 0, 0, 0, -2.1855695e-09, -0.15, 0, 0.05, -6.5567085e-09, -0.40050077, 0, 0.1631664)
+material_override = ExtResource("3_1fsns")
 mesh = SubResource("CylinderMesh_yj8pt")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1818453270]
