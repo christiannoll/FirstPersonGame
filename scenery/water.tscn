@@ -35,9 +35,20 @@ uv1_scale = Vector3(5, 5, 5)
 
 [sub_resource type="QuadMesh" id="QuadMesh_ekeht"]
 
+[sub_resource type="Animation" id="Animation_3qgxu"]
+resource_name = "flow"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3h1ir"]
+_data = {
+&"flow": SubResource("Animation_3qgxu")
+}
+
 [node name="water" type="Node3D" unique_id=1462431862]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1341740474]
 transform = Transform3D(100, 0, 0, 0, -4.371139e-06, 100, 0, -100, -4.371139e-06, 0, 0, 0)
 material_override = SubResource("StandardMaterial3D_3qgxu")
 mesh = SubResource("QuadMesh_ekeht")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1906969237]
+libraries/ = SubResource("AnimationLibrary_3h1ir")
