@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://bhmox6swrjhnf"]
 
+[ext_resource type="Script" uid="uid://caq0d0skvim1x" path="res://general_scripts/water.gd" id="1_3h1ir"]
+
 [sub_resource type="Gradient" id="Gradient_a4ysk"]
 offsets = PackedFloat32Array(0, 0.8616188, 0.92689294, 0.9660574, 1)
 colors = PackedColorArray(0, 0, 0, 1, 0.8616188, 0.8616188, 0.8616188, 1, 0.92689294, 0.92689294, 0.92689294, 1, 0.9660574, 0.9660574, 0.9660574, 1, 1, 1, 1, 1)
@@ -82,3 +84,4 @@ mesh = SubResource("QuadMesh_ekeht")
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1906969237]
 libraries/ = SubResource("AnimationLibrary_3h1ir")
 speed_scale = 0.01
+script = ExtResource("1_3h1ir")
