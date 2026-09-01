@@ -1,3 +1,19 @@
 [gd_scene format=3 uid="uid://bdunvcf75a71b"]
 
+[ext_resource type="PackedScene" uid="uid://bhmox6swrjhnf" path="res://scenery/water.tscn" id="1_yge2b"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_yj8pt"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_ekeht"]
+
 [node name="WaterPhysics" type="Node3D" unique_id=895706885]
+
+[node name="water" parent="." unique_id=1462431862 instance=ExtResource("1_yge2b")]
+
+[node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=146140910]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=1610273419]
+shape = SubResource("CapsuleShape3D_yj8pt")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D" unique_id=408558754]
+mesh = SubResource("CapsuleMesh_ekeht")
