@@ -74,6 +74,9 @@ _data = {
 &"flow": SubResource("Animation_3qgxu")
 }
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_yj8pt"]
+size = Vector3(100, 25, 100)
+
 [node name="water" type="Node3D" unique_id=1462431862]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1341740474]
@@ -85,3 +88,9 @@ mesh = SubResource("QuadMesh_ekeht")
 libraries/ = SubResource("AnimationLibrary_3h1ir")
 speed_scale = 0.01
 script = ExtResource("1_3h1ir")
+
+[node name="WaterArea" type="Area3D" parent="." unique_id=983229058]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WaterArea" unique_id=591230320]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -13.315102, 0)
+shape = SubResource("BoxShape3D_yj8pt")
