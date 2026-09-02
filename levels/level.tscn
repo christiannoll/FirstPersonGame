@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dd8er76ux245j"]
 
 [ext_resource type="Texture2D" uid="uid://cvmjskcwy18ct" path="res://icon.svg" id="1_80vhd"]
-[ext_resource type="PackedScene" uid="uid://bhmox6swrjhnf" path="res://scenery/water.tscn" id="2_5mrsh"]
+[ext_resource type="PackedScene" uid="uid://bdunvcf75a71b" path="res://scenery/water_physics.tscn" id="2_5mrsh"]
 [ext_resource type="PackedScene" uid="uid://co3s2hblxt4oi" path="res://player/player.tscn" id="2_hjsbj"]
 [ext_resource type="PackedScene" uid="uid://bc81342ghwg50" path="res://scenery/house.tscn" id="3_cwqvt"]
 
@@ -42,7 +42,7 @@ shape = SubResource("BoxShape3D_umreq")
 material_override = SubResource("StandardMaterial3D_hjsbj")
 mesh = SubResource("BoxMesh_umreq")
 
-[node name="water" parent="floor" unique_id=1462431862 instance=ExtResource("2_5mrsh")]
+[node name="WaterPhysics" parent="floor" unique_id=895706885 instance=ExtResource("2_5mrsh")]
 
 [node name="player" parent="." unique_id=1631762136 instance=ExtResource("2_hjsbj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5188737, 0)
