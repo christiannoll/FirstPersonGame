@@ -90,7 +90,15 @@ speed_scale = 0.01
 script = ExtResource("1_3h1ir")
 
 [node name="WaterArea" type="Area3D" parent="." unique_id=983229058]
+gravity_space_override = 1
+gravity_point_center = Vector3(0, 1, 0)
+gravity_direction = Vector3(0, 1, 0)
+gravity = 10.25
+linear_damp_space_override = 1
+linear_damp = 0.25
+angular_damp_space_override = 1
+angular_damp = 0.25
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="WaterArea" unique_id=591230320]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -13.315102, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -12.8771, 0)
 shape = SubResource("BoxShape3D_yj8pt")
