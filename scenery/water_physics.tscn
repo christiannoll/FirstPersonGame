@@ -4,6 +4,9 @@
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_yj8pt"]
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vyfd4"]
+albedo_color = Color(0.91764706, 0, 0.08235294, 1)
+
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_ekeht"]
 
 [node name="WaterPhysics" type="Node3D" unique_id=895706885]
@@ -16,4 +19,5 @@
 shape = SubResource("CapsuleShape3D_yj8pt")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D" unique_id=408558754]
+material_override = SubResource("StandardMaterial3D_vyfd4")
 mesh = SubResource("CapsuleMesh_ekeht")
