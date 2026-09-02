@@ -43,6 +43,7 @@ material_override = SubResource("StandardMaterial3D_hjsbj")
 mesh = SubResource("BoxMesh_umreq")
 
 [node name="WaterPhysics" parent="floor" unique_id=895706885 instance=ExtResource("2_5mrsh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45, 0)
 
 [node name="player" parent="." unique_id=1631762136 instance=ExtResource("2_hjsbj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5188737, 0)
